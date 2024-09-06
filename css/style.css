@@ -30,3 +30,9 @@ header>section {
     align-items: flex-start;
 }
 /* end-layout */
+
+/* header */
+div>a{
+    justify-content: space-around;
+}
+/* end-header */
