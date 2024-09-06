@@ -7,19 +7,22 @@
 .container {
     width: 70%;
     margin: auto;
-    background-color: #daa520;
     padding: 5px;
 }
-
-
 /* end-region common */
 
 /* region Debug */
 .debug * {
     border: 1px dashed;
 }
+
 .debug header {
     background-color: #add8e6;
+    height: 80px;
+}
+
+.debug header>section>div{
+    background-color: #daa520;
 }
 /* end-region Debug */
 
@@ -32,10 +35,6 @@
 /* end-layout */
 
 /* header */
-header{
-    height: 80px;
-}
-
 header>section {
     height: 80px;
 }
