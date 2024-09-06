@@ -36,7 +36,7 @@
     width: 50%;
 }
 
-.debug #section2{
+.debug .section2and4{
     height: 600px;
     background-color: #ffffff;
 }
@@ -51,6 +51,12 @@
     background-color: #ffc0cb;
     height: 80%;
     width: 30%;
+}
+
+.debug #section3{
+    height: 600px;
+    background-color: #d3d3d3;
+    flex-direction: row-reverse;
 }
 /* end-region Debug */
 
