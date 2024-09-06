@@ -7,6 +7,7 @@
 .container {
     width: 70%;
     margin: auto;
+    background-color: #daa520;
 }
 
 
@@ -36,5 +37,23 @@ header{
 
 header>section{
     height: 80px;
+}
+
+.head-item {
+    
+}
+
+#head1{
+    width: 25%;
+}
+
+#head2{
+    width: 50%;
+    align-content: space-between;
+}
+
+#head3{
+    width: 25%;
+    justify-content: flex-end;
 }
 /* end-header */
