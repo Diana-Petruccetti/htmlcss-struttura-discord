@@ -58,6 +58,17 @@
     background-color: #d3d3d3;
     flex-direction: row-reverse;
 }
+
+.debug #section5{
+    height: 995px;
+    background-color: #d3d3d3;
+}
+
+.debug #square-s5{
+    background-color: #228b22;
+    height: 88%;
+    width: 70%;
+}
 /* end-region Debug */
 
 /* layout */
