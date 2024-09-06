@@ -1,0 +1,32 @@
+/* region common */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+.bg-color {
+    background-color: #add8e6;
+}
+
+header>section {
+    height: 80px;
+}
+/* end-region common */
+
+/* region Debug */
+.debug * {
+    border: 1px dashed;
+}
+/* end-region Debug */
+
+/* layout */
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+/* end-layout */
