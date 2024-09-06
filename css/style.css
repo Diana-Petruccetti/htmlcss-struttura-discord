@@ -35,6 +35,23 @@
     height: 80%;
     width: 50%;
 }
+
+.debug #section2{
+    height: 600px;
+    background-color: #ffffff;
+}
+
+.debug .square1-s2{
+    background-color: #1e90ff;
+    height: 80%;
+    width: 40%;
+}
+
+.debug .square2-s2{
+    background-color: #ffc0cb;
+    height: 80%;
+    width: 30%;
+}
 /* end-region Debug */
 
 /* layout */
@@ -42,6 +59,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
 }
 /* end-layout */
 
@@ -70,7 +88,12 @@ header>section {
 /* end-header */
 
 /* main */
-/* section 1 */
-
-/* end-section 1 */
+/* section 2 */
+.flex-section{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+/* end-section 2 */
 /* end-main */
