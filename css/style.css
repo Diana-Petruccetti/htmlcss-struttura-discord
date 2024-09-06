@@ -46,7 +46,7 @@ header>section {
 
 #head2{
     width: 50%;
-    align-content: space-between;
+    justify-content: space-between;
 }
 
 #head3{
